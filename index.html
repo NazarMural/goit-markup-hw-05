@@ -26,8 +26,12 @@
             ><span>Web</span>Studio</a
           >
           <ul class="site-nav">
-            <li class="list"><a class="link current" href="./index.html">Студія</a></li>
-            <li class="list"><a class="link" href="./portfolio.html">Портфоліо</a></li>
+            <li class="list">
+              <a class="link current" href="./index.html">Студія</a>
+            </li>
+            <li class="list">
+              <a class="link" href="./portfolio.html">Портфоліо</a>
+            </li>
             <li class="list"><a class="link" href="">Контакти</a></li>
           </ul>
         </nav>
@@ -55,7 +59,9 @@
       <!--Герой-->
       <section class="hero">
         <h1 class="hero-title">Ефективні рішення для вашого бізнесу</h1>
-        <button class="button-hero" type="button" data-modal-open>Замовити послугу</button>
+        <button class="button-hero" type="button" data-modal-open>
+          Замовити послугу
+        </button>
       </section>
       <!--Перелік особливостей компанії-->
       <section class="section feature-section">
@@ -467,7 +473,13 @@
     <!-- Модалка -->
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
-        <p class="close-button" data-modal-close></p>
+        <div class="dagger">
+          <div class="background-dagger" data-modal-close>
+            <svg class="icon-dagger" height="11" width="11">
+              <use href="./images/sprite.svg#icon-dagger"></use>
+            </svg>
+          </div>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
