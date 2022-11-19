@@ -99,7 +99,7 @@ h1, h2, h3, ul, p {
     gap: 50px;
 }
 
-.site-nav > .list {
+.site-nav > .list{
     position: relative;
 }
 
